@@ -1,3 +1,8 @@
+body{
+    margin:0;
+    font-family:'メイリオ';
+}
+
 #main_title{
     text-align:center;
     color:white;
@@ -14,10 +19,11 @@
 }
 
 .sub_detail{
-    text-align:center;
     width:720px;
     margin:0 auto;
     min-height:100px;
+    padding: 20px,0px;
+    font-size:25px;
 }
 
 #icon_img{
@@ -35,6 +41,33 @@
     float:left;
 }
 
+.lavel{
+    text-align:center;
+    width:100px;
+    background-color:#ffdb5d;
+    color:white;
+    font-size:15;
+    padding:10px;
+    margin: 10px;
+    border-radius:5px;
+}
+
+#name > .lavel{
+    margin-left:20px;
+    margin:20px;
+}
+
+.name_content{
+    text-align:center;
+    margin:100px,0px,0px,0px;
+    font-size:40px;
+}
+
 #comment{
     clear:both;
+}
+
+.research_content{
+    margin: 20px,50px;
+    padding: 5px;
 }
